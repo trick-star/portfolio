@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background: center/cover url(img/bg_abstract3_yellow.png);
+  /* height: 700px; */
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 ;
+  color: green;
+  font-size: 32px;
+  padding: 30px 30px;
+}
+
+header h2 {
+  margin: 0 auto;
+  color: olivedrab;
+  font-size: 20px;
+}
+
+header p {
+  width: 300px;
+  margin: 40px auto;
+}
+
+header img {
+  width: 300px;
+  padding: 0 30px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  width: 300px;
+  padding: 8px 24px;
+  color: white;
+  display: block;
+  border-radius: 6px;
+  margin: 0 auto 20px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* .fa {
+  margin-right: 5px;
+} */
+
+.container > h1 {
+  text-align: center;
+  font-size: 28px;
+  padding: 30px 0;
+}
+
+main img {
+  height: 200px;
+}
+
+.pic {
+  text-align: center;
+}
+
+.interview h1 {
+  text-align: center;
+  color: darkblue;
+  margin: 10px 0;
+}
+
+main p  {
+  line-height: 2;
+
+}
+
+main section {
+  margin-bottom: 80px;
+  /* display: flex; */
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.form {
+  background-color: lightyellow;
+  padding: 10px 30px;
+  /* text-align: center; */
+}
+
+.form > h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.form p {
+  font-size: 12px;
+}
+
+footer {
+  font-size: 12px;
+  color: slategray;
+  text-align: center;
+  padding: 36px;
+}
+
+@media (min-width: 850px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 45px;
+  }
+
+  header p {
+    width: 400px;
+  }
+
+  .sns {
+    display: flex;
+    width: 500px;
+  }
+
+  .facebook {
+    width: 30%;
+  }
+
+  .twitter {
+    width: 30%;
+  }
+
+  .container {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  .container section {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .container section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  main img {
+    height: 300px;
+  }
+
+  .form {
+    text-align: center;
+  }
+
+
+}
